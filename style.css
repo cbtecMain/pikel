@@ -1,0 +1,161 @@
+.paragraph {
+	font-size: 35px;
+	line-height: 45px;
+	font-family: 'Tw Cen MT';
+	margin: 0px 300px;
+}
+
+.head {
+	font-size: 100px;
+	line-height: 32px;
+	font-family: 'Tw Cen MT';
+}
+
+.subhead {
+	font-size: 50px;
+	line-height: 32px;
+	font-family: 'Tw Cen MT';
+}
+
+.subhead2 {
+	font-size: 35px;
+	line-height: 32px;
+	font-family: 'Tw Cen MT';
+}
+
+@font-face {
+	font-family: 'Tw Cen MT';
+	src: url(fonts/Tw-Cen-MT.ttf);
+}
+
+.paragraph2 {
+	font-size: 35px;
+	line-height: 45px 0px;
+	font-family: 'Tw Cen MT';
+	margin-left: 1825px;
+	margin-top: -17px;
+}
+
+
+
+ul {
+	margin: 0 60px;
+	padding: 0;
+	text-decoration: none;
+}
+
+	ul li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		line-height: 50px;
+		text-decoration: none;
+		float: left
+	}
+
+	ul li {
+		display: inline-block
+	}
+
+		ul li a {
+			display: block;
+			text-decoration: none;
+			margin: 0;
+			padding: 0;
+			color: #fff;
+			font-size: 14px;
+			padding: 0 20px;
+			font-family: 'Tw Cen MT';
+		}
+
+			ul li a:hover {
+				color: red;
+			}
+
+.hover {
+	display: inline-block;
+	position: relative;
+}
+
+.hover2 {
+	display: inline-block;
+	position: relative;
+	left: 1300px;
+}
+
+	.hover::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		transform: scaleX(0);
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		background-color: red;
+		transform-origin: bottom right;
+		transition: transform 0.3s ease-out;
+	}
+
+	.hover:hover::before {
+		transform: scaleX(1);
+		transform-origin: bottom left;
+	}
+
+.hover2::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: red;
+	transform-origin: bottom right;
+	transition: transform 0.3s ease-out;
+}
+
+.hover2:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #2f2f2f;
+}
+
+.logo {
+	text-indent: -9999999px;
+	background: url('img/sdfsdfsdf.gif');
+	width: 128px;
+	height: 128px;
+	left: 1px;
+	bottom: 175px;
+	margin-top: 1px;
+}
+
+.fivehundredthree {
+	text-indent: -9999999px;
+	background: url('img/503.png');
+	width: 640px;
+	height: 360px;
+	left: 650px;
+	bottom: 25px;
+	margin-top: 10px;
+	
+}
+
+.scroll {
+	font-size: 35px;
+	line-height: 45px;
+	font-family: 'Tw Cen MT';
+	margin: 0px 100px;
+	margin-top: 0px
+}
+
+.fivehundredthree2 {
+	background: #2A2A2A;
+}
+

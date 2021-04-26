@@ -1,0 +1,134 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon icon" type="image/png" href="img/sdfsdfsdf.gif" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        .banner {
+            background: #009579;
+        }
+
+        .banner__content {
+            padding: 10px;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+        .banner__text {
+            flex-grow: 1;
+            line-height: 1.4;
+            font-family: 'Quicksand' , sans-serif;
+        }
+
+        .banner__close {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .banner__text,
+        .banner__close > span {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body background="img/web_bg.png" text="white">
+
+    <nav>
+        <h1 class="logo" style="position: fixed; top: 0;">Logo Here</h1>
+        <ul>
+            <li><a href="index.html" class="hover">Home</a></li>
+            <li><a href="stream.html" class="hover">Twitch</a></li>
+            <li><a href="mikel.html" target="_blank" class="hover">Click for more Mikel</a></li>
+            <li><a href="copyright.html" class="hover">Copyright</a></li>
+            <li><a href="signup.html" class="hover2">Sign Up</a></li>
+            <li><a href="login.html" class="hover2">Log In</a></li>
+
+
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <div class="banner__content">
+            <div class="banner__text">
+                    <strong>Reminder:</strong> This is Mikel land do not click "more mikel" in the menu.
+                Thanks.
+                <button class="banner__close" type="button">
+                    <span class="material-icons" title="Close">
+                        close
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector(".banner__close").addEventListener("click", function () {
+            this.closest(".banner").style.display = "none";
+        });
+    </script>
+
+    
+    <marquee class="scroll">
+        A new version of cbtec.org has been deployed
+        onto GitHub to the website. Twitch, Glimesh and Copyright pages were added in the update. 404 pages were fixed
+        along with many other bugs in this update. If you haven't applied the update, please locate the "Apply Updates"
+        button at the bottom of the website or refresh the site. Report any issues to the Twitter account @UKcbtec
+        . Thank you for your patience and have a great day! :D
+    </marquee>
+
+
+
+    <center><h1 class="head">Welcome!</h1> </center>
+    <center><h2 class="subhead">You Found it!</h2></center>
+
+    <center>
+        <p class="paragraph">
+            You found the Mikel Pikel easter egg
+        </p>
+        <br />
+    </center>
+    <center><a href="https://www.twitch.tv/cbtec" target="_blank" class="paragraph">This</a></center>
+    <center><a href="https://merch.streamelements.com/cbtec-4502" target="_blank" class="paragraph">cost</a></center>
+    <center><a href="https://www.twitter.com/cbtec_XBX" target="_blank" class="paragraph">me</a></center>
+    <center><a href="https://streamelements.com/cbtec-4502" target="_blank" class="paragraph">money</a></center>
+    <center><a href="https://glimesh.tv/cbtec" target="_blank" class="paragraph">haha</a></center>
+    <center><a href="https://www.youtube.com/cbtecyt" target="_blank" class="paragraph">me poor now</a></center>
+
+    <center><h2 class="subhead">Business Email</h2> </center>
+    <center>
+        <p class="paragraph">
+            businesscbtec@gmail.com
+        </p>
+    </center>
+
+    <br>
+
+
+
+    <center>
+        <p>
+            © cbtec 2021
+        </p>
+    </center>
+    <center>
+        <p>
+            Copyright 2021 cbtec. Reproduction is not permitted, for more info on copyright <a href="copyright.html" target="_blank">click here.</a>
+        </p>
+        <a href="//www.dmca.com/Protection/Status.aspx?ID=70641cb6-40df-495c-9ed1-0b5da500f1bc" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=70641cb6-40df-495c-9ed1-0b5da500f1bc" alt="DMCA.com Protection Status" /></a>
+        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+    </center>
+
+</body>
+</html>
